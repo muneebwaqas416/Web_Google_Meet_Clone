@@ -1,0 +1,76 @@
+.meeting-info-block{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    width: 360px;
+    .meeting-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: darkgray;
+        h3{
+            margin: 0;
+            font-size: 18px;
+            font-weight: 400;
+            color: black;
+            
+        }
+        .icon{
+            cursor: pointer;
+            font-size: 20px;
+        }
+    }
+    .addpeople{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        background-color: green;
+        color: white;
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        margin-top: 20px;
+        .span{
+            margin-left: 10px;
+        }
+    }
+    .icon{
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    .info-Text{
+        
+        font-size: 14px;
+        margin-top: 10%;
+    }
+    .meet-link{
+        background-color: lightgray;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+        border-radius: 5px;
+        .icon{
+            font-size: 20px;
+            color: gray;
+            cursor: pointer;
+
+        }
+    }
+    .permission-text{
+        margin-top: 5%;
+        .small-text{
+            color: rgb(103, 103, 103);
+            .icon{
+                cursor: pointer;
+                color: rgb(0, 50, 131);
+                font-size: 20px;
+            }
+        }
+    }
+}
